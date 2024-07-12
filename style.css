@@ -1,0 +1,51 @@
+/* selectors */
+/*  Select all sections in body tag  */
+section{
+    color: rgb(72, 4, 168);
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+
+
+/* #div1sec1:first-child{
+    color: chartreuse;
+} */
+
+
+
+
+/*  Select The First Child of All Sections and All first children of any child in any section */
+/* section :first-child{
+    color: brown;
+} */
+
+/*  Select The First Section  */
+
+/* section:first-child{
+    color: rgb(89, 0, 0);
+    font-size: 20px;
+} */
+
+
+/*  Select The nth Child of All Sections and All nth children of any child in any section */
+/* section :nth-child(2){
+    color: blue;
+} */
+
+/* select all Section except first section  */
+/* section:nth-child(n+2){
+    color: rgb(255, 0, 0);
+} */
+
+/* select all odd  Sections */
+/* section:nth-child(2n+1){
+    color: rgb(255, 0, 0);
+}    */
+
+/* select all even  Sections */
+/* section :nth-child(2n){
+    color: rgb(255, 0, 0);
+} */
